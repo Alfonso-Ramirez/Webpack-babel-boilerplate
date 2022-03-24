@@ -16,7 +16,7 @@
   \*************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"component\": () => (/* binding */ component),\n/* harmony export */   \"saludo\": () => (/* binding */ saludo)\n/* harmony export */ });\n/* harmony import */ var lodash_es__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash-es */ \"./node_modules/lodash-es/join.js\");\n\nfunction component() {\n  var element = document.createElement('div');\n  element.innerHTML = (0,lodash_es__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(['Hola', ' Webpack']);\n  return element;\n}\n;\nfunction saludo() {\n  var saludo = ' hola'.trim();\n  return saludo;\n}\n;\n\n//# sourceURL=webpack://webpack-basics/./src/components/component.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"component\": () => (/* binding */ component)\n/* harmony export */ });\n/* harmony import */ var lodash_es__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash-es */ \"./node_modules/lodash-es/join.js\");\n\nfunction component() {\n  var element = document.createElement('div');\n  element.innerHTML = (0,lodash_es__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(['Hola', ' Webpack']);\n  return element;\n}\n;\n\n//# sourceURL=webpack://webpack-basics/./src/components/component.js?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_component_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/component.js */ \"./src/components/component.js\");\n/* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scss/style.scss */ \"./src/scss/style.scss\");\n\n\n\ndocument.body.appendChild((0,_components_component_js__WEBPACK_IMPORTED_MODULE_0__.component)());\nconsole.log((0,_components_component_js__WEBPACK_IMPORTED_MODULE_0__.saludo)() + \" holis\".trimStart);\n\n//# sourceURL=webpack://webpack-basics/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_component_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/component.js */ \"./src/components/component.js\");\n/* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scss/style.scss */ \"./src/scss/style.scss\");\n\n\ndocument.body.appendChild((0,_components_component_js__WEBPACK_IMPORTED_MODULE_0__.component)());\n\n//# sourceURL=webpack://webpack-basics/./src/index.js?");
 
 /***/ }),
 
